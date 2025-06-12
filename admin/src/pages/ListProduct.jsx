@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
-import { Admincontext } from '../context/admincontext'
+import {AdminContext} from "./context/AdminContext";
+
 import { assets } from '../assets/assets'
 
 const ListProduct = () => {
