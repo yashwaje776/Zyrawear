@@ -6,7 +6,7 @@ import Home from './pages/Home'
 import AddProduct from './pages/AddProduct'
 import ListProduct from './pages/ListProduct'
 import Orders from './pages/Orders'
-import { Admincontext } from './context/admincontext'
+import { Admincontext } from './context/Admincontext'
 import Login from './pages/Login'
 import { ToastContainer } from 'react-toastify'
 
