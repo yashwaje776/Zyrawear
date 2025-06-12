@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import {assets} from '../assets/assets'
-import { Admincontext } from '../context/admincontext'
+import AdminContext from "./context/AdminContext";
+
 
 const Navbar = () => {
     const {settoken}=useContext(Admincontext);
