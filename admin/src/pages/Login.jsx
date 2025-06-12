@@ -12,7 +12,10 @@ const Login = () => {
    
     const fetchdata=async()=>{
         try{
-            const {data}=await axios.post(${backendUrl}/api/user/admin-login,{email:email,password:password})
+            const { data } = await axios.post(`${backendUrl}/api/user/admin-login`, {
+    email: email,
+    password: password
+});
             if(data.success){
                 localStorage.setItem("token", data.token);
                 settoken(data.token)
