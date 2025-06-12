@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import {AdminContext} from "./context/AdminContext";
+import { Admincontext } from '../context/Admincontext'
 
 import { assets } from '../assets/assets'
 
